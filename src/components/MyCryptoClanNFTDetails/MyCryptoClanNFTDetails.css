@@ -1,0 +1,49 @@
+.nft-detail-card {
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .detail {
+    margin: 5px 0;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail-title {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .status-alert {
+    width: fit-content;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 1rem auto;
+  }
+  
+  .minted {
+    background-color: #4CAF50; /* Green background for minted NFT */
+    color: white;
+  }
+  
+  .bought {
+    background-color: #2196F3; /* Blue background for bought NFT */
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .nft-detail-card {
+      margin: 10px;
+    }
+  }
+  

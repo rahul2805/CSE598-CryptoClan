@@ -1,0 +1,79 @@
+.cryptoclanCard {
+  width: 280px;
+  height: 260px;
+  /* margin: auto; */
+  border: 10px solid;
+}
+
+.head {
+  z-index: 1;
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 2rem auto 0;
+  border: 8px solid;
+  position: relative;
+}
+
+.headRotate {
+  transform: rotate(45deg);
+}
+
+.eyeLeft, .eyeRight {
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  border: 6px solid;
+}
+
+.eyeLeft {
+  left: 1.5rem;
+  top: 2.5rem;
+}
+
+.eyeLeftRotate {
+  transform: rotate(10deg);
+}
+
+.eyeRight {
+  width: 60px;
+  height: 60px;
+  left: 6.5rem;
+  top: 2.5rem;
+}
+
+.eyeRightRotate {
+  transform: rotate(-10deg);
+}
+
+.pupil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.9rem;
+  top: 1rem;
+}
+
+.pupilRotate {
+  transform: rotate(20deg);
+}
+
+.mouth {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  height: 25px;
+  width: 100px;
+  margin: 3px auto;
+  border-radius: 100%/100%;
+  border: 0;
+  border-bottom: 8px solid;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.mouthRotate {
+  transform: rotate(15deg);
+}
