@@ -24,11 +24,11 @@
 
 ### 1. Clone this repository
 ```
-git clone 
+git clone https://github.com/rahul2805/CSE598-CryptoClan
 ```
 ### Install dependencies
 ```
-cd 
+cd CSE598-CryptoClan
 npm install
 ```
 ### 2. Install Truffle and Ganache
